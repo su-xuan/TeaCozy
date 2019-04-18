@@ -19,6 +19,7 @@ header, nav, .main, .tea, .categories, .pictures, .location, .details {
 
 header {
   position: fixed;
+  top: 0;
   height: 69px;
   width: 100%;
   border-bottom: 1px solid seashell;
@@ -54,6 +55,7 @@ span {
 .mission > .text {
   top: 50%;
   bottom: 50%;
+  position: relative;
 }
 
 .tea {
@@ -63,7 +65,11 @@ span {
 
 .categories {
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+.pictures {
+  margin: 15px;
 }
 
 .pictures img {
